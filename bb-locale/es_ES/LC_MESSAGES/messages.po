@@ -22,11 +22,23 @@ msgstr "Error"
 msgid "Dashboard"
 msgstr "Panel"
 
+msgid "Order services"
+msgtr "Contratar servicios"
+
 msgid "Shopping cart"
 msgstr "Carrito"
 
 msgid "Profile"
 msgstr "Perfil"
+
+msgid "profile"
+msgstr "Perfil"
+
+msgid "sign out"
+msgstr "Salir"
+
+msgid "Account balance"
+msgtr "Importe Total"
 
 msgid "Sign out"
 msgstr "Salir"
@@ -99,6 +111,15 @@ msgstr "Precio"
 msgid "setup"
 msgstr "configuración"
 
+msgid "Configuration"
+msgtr "Configuraciones"
+
+msgid "Settings"
+msgtr "Configuraciones"
+
+msgid "Activity"
+msgtr "Actividad"
+
 msgid "Have a promo code?"
 msgstr "Código Promocional"
 
@@ -145,7 +166,10 @@ msgid "Order new service"
 msgstr "Solicitar nuevo servicio"
 
 msgid "Payments history"
-msgstr "Pagos"
+msgstr "Historial de Pagos"
+
+msgid "Here you can track what you have been charged for and add more funds to your account"
+msgtr "Aquí puedes consultar los pagos que has realizado y cargos recibidos"
 
 msgid "Here you can track your payments you have made and what you have been charged for"
 msgstr "Aquí puedes consultar los pagos que has realizado y los cargos que has tenido"
@@ -177,14 +201,23 @@ msgstr "Puedes agregar fondos a tu cuenta si tienes un pedido activo."
 msgid "Add funds"
 msgstr "Añadir fondos"
 
+msgid "Sign up"
+msgstr "Registrarse"
+
 msgid "Login / Sign up"
 msgstr "Identificarse / Registrarse"
 
+msgid "Forgot password"
+msgtr "Recordar contraseña"
+
+msgid "Log in"
+msgtr "Acceder"
+
 msgid "Sign In / Create new account"
-msgstr "Sign In / Create new account"
+msgstr "Registrarte / Crea una nueva cuenta"
 
 msgid "Become a member to participate in forum, contact support, order new services"
-msgstr "Become a member to participate in forum, contact support, order new services"
+msgstr "Necesitas ser un miembro para participar de los foros, contactar al área de soporte o para contratar nuevos servicios"
 
 msgid "Company"
 msgstr "Empresa"
@@ -194,7 +227,7 @@ msgid "How to reset my password?"
 msgstr "Recuperar contraseña"
 
 msgid "Enter your email to reset password. You will receive new password after reset link is confirmed."
-msgstr "Enter your email to reset password. You will receive new password after reset link is confirmed."
+msgstr "Ingrese su email para resetear su contraseña. Recibirá una nueva contraseña luego de confirmar su solicitud a través del enlace."
 
 #, fuzzy
 msgid "Password reset confirmation email was sent"
@@ -227,8 +260,23 @@ msgstr "API"
 msgid "Update profile"
 msgstr "Actualizar perfil"
 
+msgid "Update details"
+msgtr "Actualizar perfil"
+
+msgid "Keep your personal data up to date"
+msgtr "Mantenga su información personal actualizada"
+
+msgid "Birth date"
+msgtr "Fecha de Nacimiento"
+
 msgid "Company Name"
 msgstr "Nombre de la Empresa"
+
+msgid "Company VAT"
+msgtr "IVA de la Empresa"
+
+msgid "Company Number"
+msgtr "Número de la Empresa"
 
 msgid "Phone Country Code"
 msgstr "Código Telefónico de País"
@@ -254,23 +302,38 @@ msgstr "Provincia"
 msgid "Zip/Postal Code"
 msgstr "Código Postal"
 
+msgid "Passport number"
+msgtr "Número de Identificación"
+
+msgid "New password"
+msgtr "Nueva contraseña"
+
+msgid "Please enter new password two times in order avoid mistypes"
+msgtr "Por favor ingresa la nueva contraseña dos veces para evitar errores de digitación"
+
 msgid "Change password"
 msgstr "Cambiar contraseña"
 
 msgid "Enter new password"
 msgstr "Escriba la nueva contraseña"
 
+msgid "Update password"
+msgtr "Actualizar Contraseña"
+
 msgid "API key"
 msgstr "API key"
 
 msgid "API key allows integration with external applications. You will need this key for authentication."
-msgstr "API key allows integration with external applications. You will need this key for authentication."
+msgstr "La clave API permite la integración con aplicaciones externas. Esta clave será necesaria para la autenticación."
 
 msgid "Warning! Resetting the key will break existing applications using it."
-msgstr "Warning! Resetting the key will break existing applications using it."
+msgstr "Advetencia! Resetear la clave desconectará aquellas aplicaciones que la estén usando."
 
 msgid "Your API key"
-msgstr "Your API key"
+msgstr "Su clave API"
+
+msgid "Reset key"
+msgtr "Resetear Clave"
 
 #, fuzzy
 msgid "Reset key"
@@ -291,8 +354,8 @@ msgstr "Tu perfil de moneda es"
 msgid "Create new client profile if you want to manage your money in other currency"
 msgstr "Debes crear un perfil nuevo de cliente si deseas administrar importes en otra moneda"
 
-msgid "Your profile currency will be defined after your first order. Once your currency is set, all your profile accounting will be managed in that currency and can not be changed."
-msgstr "Tu perfil de moneda será definido después de tu primer pedido. Una vez que tu moneda se defina, tu perfil de contabilidad se establecerá en esa moneda y no se podrá cambiar."
+msgid "Your profile currency is defined after your first order. Once your currency is set, all your profile accounting will be managed in that currency and can not be changed."
+msgstr "Tu perfil de moneda será definido después de tu primer pedido. Una vez que tu moneda se defina, tu moneda se establecerá y no se podrá cambiar."
 
 msgid "Back to emails"
 msgstr "Volver a emails"
@@ -317,6 +380,9 @@ msgstr "Emails"
 
 msgid "Emails we have sent you"
 msgstr "Emails que te hemos enviado"
+
+msgid "Here you can find all the emails we sent you. Please click on email topic in left column and it will be displayed in right side."
+msgtr "Aquí están todos los correos que le hemos enviado. Seleccione uno de los correos y la información se desplegará a la derecha."
 
 msgid "Here you can track emails we have sent you"
 msgstr "Aquí puedes revisar los correos electrónicos que te hemos enviado"
@@ -419,6 +485,9 @@ msgstr "No hay respuestas en este tema"
 msgid "Client Area"
 msgstr "Área de Clientes"
 
+msgid "Clients"
+msgstr "Clientes"
+
 msgid "Tickets waiting your reply"
 msgstr "Tickets esperando su respuesta"
 
@@ -464,6 +533,15 @@ msgstr "Mis servicios"
 msgid "Active"
 msgstr "Activo"
 
+msgid "Suspended"
+msgtr "Suspendido"
+
+msgid "Canceled"
+msgtr "Cancelado"
+
+msgid "Inquiries"
+msgtr "Pedidos"
+
 msgid "Soon expires"
 msgstr "Próximo a vencimiento"
 
@@ -472,6 +550,15 @@ msgstr "Todos los servicios"
 
 msgid "New order"
 msgstr "Nuevo pedido"
+
+msgid "All orders"
+msgstr "Todos los Pedidos"
+
+msgid "Expiring"
+msgtr "Expira"
+
+msgid "Orders"
+msgstr "Pedidos"
 
 msgid "Tickets"
 msgstr "Tickets"
@@ -520,6 +607,12 @@ msgstr "Anuncios"
 msgid "Latest news & announcements"
 msgstr "Noticias & Anuncios"
 
+msgid "Track our latest information."
+msgtr "Sigue nuestras últimas noticias"
+
+msgid "Please try to read related topics in knowledge base before contacting support."
+msgtr "Por favor lea los tópicos disponibles en nuestra base de conocimientos antes de contactar al soporte."
+
 msgid "Knowledge Base"
 msgstr "Centro de ayuda"
 
@@ -545,6 +638,9 @@ msgstr "Haz clic aquí para continuar si esta página no te redirige automaticam
 
 msgid "List of invoices"
 msgstr "Listado de facturas"
+
+msgid "All of your invoices can be found here. You can choose to see either paid or unpaid invoices by clicking corresponding button."
+msgtr "Aquí encontrará todas sus compras. Podrá seleccionarlas y elegir ver o pagarlas usando el botón correspondiente." 
 
 msgid "Invoice management"
 msgstr "Gestión de facturas"
@@ -589,7 +685,7 @@ msgid "Company number"
 msgstr "Nombre de la Empresa"
 
 msgid "VAT"
-msgstr "VAT"
+msgstr "IVA"
 
 msgid "Discount"
 msgstr "Descuento"
@@ -636,6 +732,12 @@ msgstr "Centro de Ayuda"
 msgid "What are you looking for?"
 msgstr "¿Qué estás buscando?"
 
+msgid "Overview"
+msgtr "Vista resumen"
+
+msgid "Advanced search"
+msgstr "Busqueda avanzada"
+
 msgid "Search"
 msgstr "Buscar"
 
@@ -659,6 +761,18 @@ msgstr "por "
 
 msgid "Select Product"
 msgstr "Seleccionar Producto"
+
+msgid "Product Configuration"
+msgtr "Configuración del Producto"
+
+msgid "Domain configuration"
+msgtr "Configuración del dominio"
+
+msgid "Cart"
+msgtr "Carro de Compra"
+
+msgid "Payment"
+msgtr "Importe Total"
 
 msgid "Choose products we offer for selling"
 msgstr "Elije productos que ofrecemos"
@@ -701,6 +815,9 @@ msgstr "Ciclo de facturación"
 
 msgid "Order status"
 msgstr "Estado de la solicitud"
+
+msgid "Submitted"
+msgtr "Enviado"
 
 msgid "Order created"
 msgstr "Solicitud creada"
@@ -782,7 +899,7 @@ msgid "The product/service you have chosen has the following configuration optio
 msgstr "Si existen extras u opciones de configuración, se mostrarán en el siguiente paso."
 
 msgid "Terms and Conditions"
-msgstr "Terms and Conditions"
+msgstr "Terminos y Condiciones del Servicio"
 
 msgid "Domain management"
 msgstr "Administración de Dominio"
@@ -806,7 +923,7 @@ msgid "All domain names (except a .EU, .UK domain name) have a Domain (Transfer)
 msgstr "Todos los nombres de dominio (con excepción de .EU y .UK) tienen una Clave (de transferencia) Secreta / Código de autorización (EPP Code) asociados a ellos. Esto sería necesario si deseases transferir el servicio."
 
 msgid "Get EPP code"
-msgstr "Get EPP code"
+msgstr "Conseguir código EPP"
 
 msgid "Domain Protection"
 msgstr "Protección de Dominio"
@@ -999,6 +1116,9 @@ msgstr "Transferir"
 msgid "I will use my existing domain and update nameservers"
 msgstr "Voy a utilizar mi dominio existente y a actualizar los servidores de nombres"
 
+msgid "I want to register a new domain"
+msgtr "Quiero comprar un nuevo dominio"
+
 msgid "Enter your domain name"
 msgstr "Indica el nombre de tu dominio"
 
@@ -1081,7 +1201,7 @@ msgstr "Listado de Tickets"
 msgid "Support tickets"
 msgstr "Tickets de Soporte"
 
-msgid "Need an answer? We are here to help"
+msgid "Need an answer? We are here to help!"
 msgstr "¿Tienes una pregunta? Estamos aquí para ayudarte"
 
 msgid "Submit new ticket"
@@ -1109,7 +1229,10 @@ msgid "Total price:"
 msgstr "Total precio:"
 
 msgid "Quantity:"
-msgstr "Cantidad:"
+msgstr "Monto:"
+
+msgid "Add funds!"
+msgtr "Agregar fondos"
 
 msgid "Setup Price"
 msgstr "Precio de configuración"
@@ -2709,4 +2832,3 @@ msgstr "Falta el parámetro Clave"
 #, fuzzy
 msgid "_tpl parameter not passed"
 msgstr "Parámetro de período no pasado"
-
